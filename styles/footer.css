@@ -1,0 +1,22 @@
+footer {
+    background: var(--primary-color);
+    text-align: center;
+    padding: 1em;
+}
+
+footer a {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.social a .iconify {
+    margin-top: 0.5em;
+    width: 1em;
+    height: 1em;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+}
+.social a .iconify:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}

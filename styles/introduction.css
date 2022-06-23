@@ -1,0 +1,31 @@
+.inlogo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.inlogo p {
+    width: 50%;
+    line-height: 2em;
+    color: var(--thirt-color);
+    font-size: 1.3em;
+    align-self: center;
+}
+
+.ins-name {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1em;
+}
+
+img {
+    width: 50%;
+    height: 40%;
+    margin-right: 2em;
+}
+
+.introduction img:nth-child(2) {
+    margin-left: 2em;
+    margin-right: 0em;
+}

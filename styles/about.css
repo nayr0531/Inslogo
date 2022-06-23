@@ -1,0 +1,44 @@
+.about h1 {
+    font-size: 2em;
+}
+
+.about p {
+    line-height: 1.5em;
+    color: var(--thirt-color);
+    font-size: 1.1em;
+}
+
+.more-ins {
+    margin: 4em 0em;
+    text-align: center;
+}
+
+.more-ins a {
+    color: #0085FF;
+    font-weight: bolder;
+    font-size: 1.5em;
+    position: relative;
+}
+
+.more-ins a::after {
+    content: '';
+    background: var(--primary-color);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    width: 1.3em;
+    height: 1.3em;
+    position: absolute;
+    top: 0em;
+    left: -2em;
+    transform: rotate(-90deg);
+    animation: morebounce 0.4s ease infinite;
+}
+
+@keyframes morebounce {
+    0% {
+        left: -2em;
+    }
+
+    100% {
+        left: -2.5em;
+    }
+}

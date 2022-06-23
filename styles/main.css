@@ -1,0 +1,48 @@
+@import url("./header.css");
+@import url("./landing-page.css");
+@import url("./introduction.css");
+@import url("./inspirations.css");
+@import url("./about.css");
+@import url("./footer.css");
+@import url("./responsive.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #d433ae;
+  --secondary-color: #0d0c22;
+  --thirt-color: #282828;
+  --fourt-color: #464a5f;
+  --margin: 2em auto;
+  --content-width: 80%;
+}
+
+/* Reuseable */
+.title::after {
+  content: "";
+  width: 100%;
+  height: 0.2em;
+  background: var(--primary-color);
+  position: absolute;
+  bottom: -0.3em;
+  left: 0;
+}
+
+.title {
+  color: var(--secondary-color);
+  font-size: 2em;
+  position: relative;
+  width: min-content;
+  margin: 3.5em auto;
+}
+
+.center {
+  width: var(--content-width);
+  margin: var(--margin);
+}
